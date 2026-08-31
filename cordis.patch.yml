@@ -1,0 +1,8 @@
+# dsh-message-collapse bundle patch: one row, dual-face.
+# The node half is the package's default export (host plugin, minimal); the
+# browser half is served from ./client (dsh.client declaration in package.json)
+# and injected into the web roster. The row name MUST equal the package name so
+# the client-modules node half resolves '<row-name>/package.json'.
+- insert:
+    - id: dsh-message-collapse
+      name: 'dsh-message-collapse'
