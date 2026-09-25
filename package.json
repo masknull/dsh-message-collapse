@@ -7,13 +7,15 @@
   "exports": {
     ".": "./lib/index.js",
     "./client": "./lib/client.js",
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
   },
   "files": [
     "lib",
     "cordis.patch.yml",
     "README.md",
-    "assets"
+    "assets",
+    "locale/*.json"
   ],
   "engines": {
     "dsh": ">=0.1.7-rc.1"

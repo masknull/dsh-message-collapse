@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Message Collapse",
+    "description": "Collapse user messages longer than ten lines while keeping the product's default bubble styling and actions."
+  }
+}
