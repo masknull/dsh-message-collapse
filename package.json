@@ -1,7 +1,7 @@
 {
   "name": "dsh-message-collapse",
-  "version": "0.1.1",
-  "description": "用户消息超过12行自动折叠，保留产品默认气泡样式与操作按钮，支持 HMR 热重载",
+  "version": "0.1.2",
+  "description": "用户消息超过12行自动折叠（DSH 0.1.7+），保留产品默认气泡样式与操作按钮，支持 HMR 热重载",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -14,6 +14,9 @@
     "cordis.patch.yml",
     "README.md"
   ],
+  "engines": {
+    "dsh": ">=0.1.7-rc.1"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
@@ -31,7 +34,11 @@
     "@deepseek-ai/dsh-client-ui-slots": "*"
   },
   "peerDependenciesMeta": {
-    "@deepseek-ai/dsh-client-ui-primitives": { "optional": true },
-    "@deepseek-ai/dsh-client-ui-slots": { "optional": true }
+    "@deepseek-ai/dsh-client-ui-primitives": {
+      "optional": true
+    },
+    "@deepseek-ai/dsh-client-ui-slots": {
+      "optional": true
+    }
   }
 }
