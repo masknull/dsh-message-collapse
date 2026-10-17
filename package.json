@@ -1,7 +1,7 @@
 {
   "name": "dsh-message-collapse",
-  "version": "0.1.2",
-  "description": "用户消息超过12行自动折叠（DSH 0.1.7+），保留产品默认气泡样式与操作按钮，支持 HMR 热重载",
+  "version": "0.1.3",
+  "description": "用户消息超过 10 行自动折叠（DSH 0.2.1+），保留产品默认气泡样式与操作按钮，支持 HMR 热重载",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -18,7 +18,7 @@
     "locale/*.json"
   ],
   "engines": {
-    "dsh": ">=0.1.7-rc.1"
+    "dsh": ">=0.2.1-rc.1"
   },
   "dsh": {
     "bundle": {
